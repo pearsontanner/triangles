@@ -32,8 +32,7 @@ public class Main {
         boolean testMode = false;
 
         if (testMode) {
-            TrianglesTest trianglesTest = new TrianglesTest();
-            trianglesTest.run();
+            new TrianglesTest().run();
         } else {
             double sideA = getValidTriangleSideLengthInput("a");
             double sideB = getValidTriangleSideLengthInput("b");
